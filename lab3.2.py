@@ -1,10 +1,11 @@
+import sys
 
 print("Щоб дізнатися величину п'того кута опуклого п'ятикутника, задайте чотири кути опуклого п'ятикутника.\n")
 
-angle1 = float(input("Введіть перший кут опуклого п'ятикутника: "))
-angle2 = float(input("Введіть другий кут опуклого п'ятикутника: "))
-angle3 = float(input("Введіть третій кут опуклого п'ятикутника: "))
-angle4 = float(input("Введіть четвертий кут опуклого п'ятикутника: "))
+angle1 = float(sys.argv[1])
+angle2 = float(sys.argv[2])
+angle3 = float(sys.argv[3])
+angle4 = float(sys.argv[4])
 
 sum_angle = angle1 + angle2 + angle3 + angle4
 
